@@ -1,0 +1,29 @@
+.get-started {
+  margin-top: 5.4rem;
+  padding: 4.3rem 3rem 5.9rem 3.1rem;
+  background-color: $color;
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.8rem;
+  }
+  button {
+    color: $color;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-family: " Raleway", sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.5rem;
+    padding: 1.3rem 2.3rem;
+    letter-spacing: 0.065rem;
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+header {
+  .navbar {
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    img {
+      max-width: 15.5rem;
+    }
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-button {
+    button {
+      margin-top: -2rem;
+      color: #fff;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 1.1rem;
+      font-weight: 800;
+      background-color: $color;
+      padding: 0.9rem 1.5rem;
+    }
+  }
+}
+.hero {
+  position: relative;
+  .hero-texts {
+    h1 {
+      font-family: "Playfair Display", sans-serif;
+
+      font-size: 4.6rem;
+    }
+
+    p {
+      margin-top: 5rem;
+      color: #000;
+      font-family: " Raleway", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+    }
+    .btns {
+      display: flex;
+      column-gap: 1.4rem;
+      margin-top: 1.6rem;
+      .try {
+        padding: 1.3rem 2.9rem;
+        background-color: $color;
+        text-align: center;
+        color: #fff;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 900;
+        border: 2px solid $color;
+        max-width: 14.3rem;
+      }
+      .get {
+        color: $color;
+        padding: 1.3rem 2.7rem;
+        border: 2px solid $color;
+        max-width: 14.3rem;
+      }
+    }
+  }
+
+  .hero-img {
+    img {
+      position: absolute;
+      top: 13rem;
+      z-index: -1;
+    }
+  }
+}

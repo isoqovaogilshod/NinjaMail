@@ -1,0 +1,66 @@
+.comp-emails {
+  margin-top: 4rem;
+
+  .bottom {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    max-width: 70%;
+    .card-text {
+      margin-top: -1rem;
+    }
+    comp-cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+    .card-text {
+      padding: 1.7rem 1.5rem 1.3rem 2rem;
+      background: #fff;
+      p {
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+      }
+
+      h5 {
+        color: $color;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.4rem;
+        margin-top: 1.4rem;
+      }
+    }
+  }
+  .comp-texts {
+    h2 {
+      font-family: "Playfair Display", sans-serif;
+      font-size: 2.8rem;
+      font-style: normal;
+      font-weight: 900;
+      margin: 0 auto;
+      line-height: 3.1rem;
+      max-width: 23.2rem;
+      margin-top: 1.8rem;
+    }
+    p {
+      font-family: "Raleway", sans-serif;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      max-width: 23.3rem;
+      margin: 0 auto;
+      line-height: 1.6rem;
+      margin-top: 2rem;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.cutomers {
+  background-image: url(../images/customers-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 2rem;
+  color: #fff;
+  margin-top: 3rem;
+
+  h2 {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 11em;
+    color: #fff;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 29px;
+  }
+
+  button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    color: $color;
+    padding: 0.6rem 1.3rem;
+  }
+}
